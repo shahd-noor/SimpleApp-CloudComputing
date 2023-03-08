@@ -1,5 +1,19 @@
 # SimpleApp-CloudComputing
-**
+
+First Script:
+Adding it to path variable
+ - /usr/bin
+export PATH=$PATH:$HOME/bin
+mkdir $HOME/bin
+cp ./lunixStatus ~/bin
+
+second Script:
+crontab -e
+0 0 * * * /bin/bash $HOME/my-script.sh
+ then Save and Exite
+
+////******
+DEscription:
 In the first script( LunixStatus) a welcome screen is created showing the date, host, version name.
 These are the variables that are created:
 [TODAY=$(date)
@@ -16,7 +30,6 @@ When choosing the main number option, then pressing the same number, it moves to
 3 once again-->Exite
 ****
 A script has been created that receives arguments (p,r,h,a)
-
 
 
 
